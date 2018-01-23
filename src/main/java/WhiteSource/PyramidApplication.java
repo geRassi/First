@@ -31,12 +31,12 @@ public class PyramidApplication {
     }
 
     private static void addNodes(Node node, String s) {
-        List<Integer>  integers = new ArrayList<>();
-                Arrays.stream(s.split(" ")).map(i-> );
+//        List<Integer>  integers = new ArrayList<>();
+//                Arrays.stream(s.split(" ")).map(i-> );
 
-        for (String number : numbers) {
-
-        }
+//        for (String number : numbers) {
+//
+//        }
 
     }
 
