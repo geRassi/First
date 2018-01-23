@@ -7,5 +7,5 @@ import lombok.Data;
 public class Node {
     int me;
     Node left;
-    Node right
+    Node right;
 }
