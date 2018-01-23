@@ -7,8 +7,10 @@ public class SumFile {
 
     public static Map<String, Integer> sum(String s) {
 
-        return Arrays.stream(s.split("\\r?\\n"))
-                .map((x) -> x.split("\\s")).collect(Collectors.toMap(x -> x[0].split("\\.")[1], x -> Integer.valueOf(x[1].split("MB")[0]), (x, y) -> x + y));
+        return Arrays
+                .stream(s.split("\\r?\\n"))
+                .map((x) -> x.split("\\s"))
+                .collect(Collectors.toMap(x -> x[0].split("\\.")[1], x -> Integer.valueOf(x[1].split("MB")[0]), (x, y) -> x + y));
     }
 
 //    private static void collect(String line, Map<String, Integer> collector) {
